@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>TK Photography</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#top">Top</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>About</h2>
+                <p>Hello!</p>
+                <p>I’m TK and I’m a photographer. I love looking at life through the lens of my camera. Landscape photography is my speciality and it’s taken me all over the world.</p>
+        </section>
+        <section>
+            <h2>Gallery</h2>
+                <p>Here are some highlights of my work. The locations and year are in the caption.</p>
+            <div class="pics">
+                <figure>
+                    <img src="images/Chile.png" alt="The Beaches in Chile" /> 
+                    <figcaption class="chile">Chile, 2001</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/Guatemala.png" alt="Lake in Guatemala" />
+                    <figcaption class="guatemala">Guatemala, 1997</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/Hawaii.png" alt="Hawaii Cliffs" />
+                    <figcaption class="hawaii">Hawaii, 2010</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/Iran.png" alt="Desert Plants in Iran" />
+                    <figcaption class="iran">Iran, 1999</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/Ireland.png" alt="Green Hills in Ireland" />
+                    <figcaption class="ireland">Ireland, 2012</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/Italy.png" alt="Blue Water Lake in Italy" />
+                    <figcaption class="italy">Italy, 2015</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/Moab-Desert.png" alt="Red Rock Sunset in Moab" />
+                    <figcaption class="moab">Moab Desert, 2020</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/Rocky-Mountains.png" alt="Rocky Mountain Rocks and Snow" />
+                    <figcaption class="rocky">Rocky Mountains, 2009</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/Switzerland.png" alt="Mountain Snow in Switzerland" />
+                    <figcaption class="switzerland">Switzerland, 2014</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/UK.png" alt="Green Vally in UK" />
+                    <figcaption class="uk">UK, 2005</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/USA.png" alt="Flower Field in the USA" />
+                    <figcaption class="usa">USA, 2021</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/Wyoming.png" alt="Lake and Mountain in Wyoming" /> 
+                    <figcaption class="wyoming">Wyoming, 2021</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+    <section class="contactbtm">
+    <h2>Contact</h2>
+    <p class="contact">Please fill out this form and I’ll connect with you soon.</p>
+        <form action="#">
+            <p>
+                <label for="name">NAME</label>
+                <input type="text" name="name" id="name" value="Your Full Name">
+            </p>
+            <p>
+                <label for="email">EMAIL</label>
+                <input type="text" name="email" id="email" value="Enter Your email Address">
+            </p>
+            <p>
+                <label for="message">MESSAGE</label>
+                <input type="text" name="message" id="message" value="What Can I Help You With?">
+            </p>
+            <input class="button" type="submit" value="SUBMIT">	
+        </form>
+    </section>
+    <footer>
+        <p><small>Copyright 2021 TK Photography</small></p>
+    </footer>
+</body>
+</html>
